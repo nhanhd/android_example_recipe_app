@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipetypes>
+    <recipetype id="1">
+        <name>Drink</name>
+    </recipetype>
+    <recipetype id="2">
+        <name>Soft Food</name>
+    </recipetype>
+    <recipetype id="3">
+        <name>Hard Food</name>
+    </recipetype>
+    <recipetype id="4">
+        <name>SoSO Food</name>
+    </recipetype>
+    <recipetype id="5">
+        <name>Great Food</name>
+    </recipetype>
+</recipetypes>

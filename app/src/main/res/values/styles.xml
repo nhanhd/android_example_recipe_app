@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GreenBorderEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/selector_green_edittext</item>
+        <item name="android:theme">@style/EditTextTheme</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+    </style>
+
+    <style name="GreenButton">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_green_button</item>
+    </style>
+
+    <style name="YellowButton">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_yellow_button</item>
+    </style>
+
+    <style name="RedButton">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_red_button</item>
+    </style>
+
+</resources>

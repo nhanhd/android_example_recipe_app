@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="txt_small">16sp</dimen>
+    <dimen name="txt_normal">20sp</dimen>
+    <dimen name="txt_big">30sp</dimen>
+    <dimen name="padding_tiny">6dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_big">30dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_normal">20dp</dimen>
+    <dimen name="size_icon">60dp</dimen>
+    <dimen name="toolbar_height">60dp</dimen>
+</resources>

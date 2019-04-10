@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".activity.AddNewRecipeActivity">
+
+        <ImageView
+            android:id="@+id/add_new_imageView"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:onClick="chooseImage"
+            app:srcCompat="@drawable/ic_food_default" />
+
+        <TextView
+            android:id="@+id/txtRecipeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/select_recipe_type"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/add_new_spinner_recipe_type"
+            style="@style/GreenBorderEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:overlapAnchor="false"
+            android:background="@drawable/bg_spinner"
+            tools:targetApi="lollipop" />
+
+        <EditText
+            android:id="@+id/recipe_et_recipeName"
+            style="@style/GreenBorderEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/recipe_name"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/recipe_et_ingredients"
+            style="@style/GreenBorderEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="top|start"
+            android:hint="@string/ingredients"
+            android:minHeight="96dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/recipe_et_step"
+            style="@style/GreenBorderEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="top|start"
+            android:hint="@string/step"
+            android:inputType="text"
+            android:minHeight="96dp"
+            android:padding="8dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="createNewRecipe"
+            style="@style/GreenButton"
+            android:text="@string/add_button" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="updateRecipe"
+            style="@style/YellowButton"
+            android:text="@string/update_button" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="deleteRecipe"
+            style="@style/RedButton"
+            android:text="@string/delete_button" />
+
+        <!--<android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </android.support.design.widget.TextInputLayout>
+    -->
+
+    </LinearLayout>
+</ScrollView>
